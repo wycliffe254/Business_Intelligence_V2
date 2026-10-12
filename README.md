@@ -126,21 +126,53 @@ pytest tests/ -v               # if pytest is installed
 - Prototype for academic use; not accounting, tax or financial advice, and no guarantee of future performance.
 
 ## Definition of terms
-**Gross Sales** value of sales before discount. **Net Sales** after discount. **Refund** value of returned goods.
-**Adjusted (Net) Revenue** Net Sales - Refunds, the "revenue" used throughout. **COGS** cost of the goods that were sold (cost,
-not selling price). **Gross Profit** Adjusted Revenue - COGS, i.e. profit before running costs. **Gross Margin** Gross Profit as
-a % of revenue: how much of each shilling is kept after paying for the goods. **Operating Expenses (Opex)** day-to-day running
-costs that are not the cost of goods (rent, salaries, utilities, transport, repairs...). **Operating Profit** Gross Profit -
-Opex; negative = operating loss. **Operating Margin** Operating Profit as a % of revenue. **Operating Expense Ratio** Opex as a
-% of revenue. **Discount Rate** share of gross sales given away as discounts. **Refund Rate** refunds as a % of gross sales.
-**Average Transaction Value** revenue per valid sale. **Credit-like Sale** a sale where the customer paid less than the sale
-amount at the time (inferred, because payment method is blank on sales). **Collection Coverage** estimated % of credit-like
-sales value collected in cash (estimate only). **Estimated Uncollected Exposure** estimated KES still owed. **Break-even
-Revenue** approximate monthly revenue needed for zero operating profit at the current margin and cost structure (an estimate,
-not a forecast). **Reconstructed Inventory / Stock-on-Hand** a running stock balance per product rebuilt by adding all recorded
-stock movements in date order; if it goes negative the records contradict reality. **Inventory Integrity** whether that
-reconstruction stays at or above zero for every product. **Inventory Turnover** COGS / average inventory value (only when
-integrity holds). **Data Quality Score / Data Reliability** 0-100 trust rating of the input data, separate from business health.
-**Financial Health Score** 0-100 composite of five weighted areas. **RAG Status** Green = healthy, Amber = needs attention,
-Red = significant concern (text always shown with colour). **Critical-risk Override** a rule that forces RED regardless of score,
-with the reason shown. **Driver** a rule-based, evidence-backed reason behind the result (e.g. Margin Pressure).
+**Gross Sales**value of sales before discount. 
+
+**Net Sales** after discount. 
+
+**Refund** value of returned goods.
+
+**Adjusted (Net) Revenue** Net Sales - Refunds, the "revenue" used throughout. 
+
+**COGS** cost of the goods that were sold (cost,not selling price). 
+
+**Gross Profit** Adjusted Revenue - COGS, i.e. profit before running costs.
+
+**Gross Margin** Gross Profit as a % of revenue: how much of each shilling is kept after paying for the goods.
+
+**Operating Expenses (Opex)** day-to-day running costs that are not the cost of goods (rent, salaries, utilities, transport, repairs...). 
+
+**Operating Profit** Gross Profit - Opex; negative = operating loss. **Operating Margin** Operating Profit as a % of revenue.
+
+**Operating Expense Ratio** Opex as a % of revenue.
+
+**Discount Rate** share of gross sales given away as discounts.
+
+**Refund Rate** refunds as a % of gross sales.
+
+**Average Transaction Value** revenue per valid sale. 
+
+**Credit-like Sale** a sale where the customer paid less than the sale amount at the time (inferred, because payment method is blank on sales).
+
+**Collection Coverage** estimated % of credit-like sales value collected in cash (estimate only).
+
+**Estimated Uncollected Exposure** estimated KES still owed. 
+
+**Break-even Revenue** approximate monthly revenue needed for zero operating profit at the current margin and cost structure (an estimate,not a forecast).
+
+**Reconstructed Inventory / Stock-on-Hand** a running stock balance per product rebuilt by adding all recorded
+stock movements in date order; if it goes negative the records contradict reality.
+
+**Inventory Integrity** whether that reconstruction stays at or above zero for every product. 
+
+**Inventory Turnover** COGS / average inventory value (only when integrity holds).
+
+**Data Quality Score / Data Reliability** 0-100 trust rating of the input data, separate from business health.
+
+**Financial Health Score** 0-100 composite of five weighted areas.
+
+**RAG Status** Green = healthy, Amber = needs attention,Red = significant concern (text always shown with colour). 
+
+**Critical-risk Override** a rule that forces RED regardless of score, with the reason shown. 
+
+**Driver** a rule-based, evidence-backed reason behind the result (e.g. Margin Pressure).
