@@ -142,7 +142,9 @@ pytest tests/ -v               # if pytest is installed
 
 **Operating Expenses (Opex)** day-to-day running costs that are not the cost of goods (rent, salaries, utilities, transport, repairs...). 
 
-**Operating Profit** Gross Profit - Opex; negative = operating loss. **Operating Margin** Operating Profit as a % of revenue.
+**Operating Profit** Gross Profit - Opex; negative = operating loss. 
+
+**Operating Margin** Operating Profit as a % of revenue.
 
 **Operating Expense Ratio** Opex as a % of revenue.
 
